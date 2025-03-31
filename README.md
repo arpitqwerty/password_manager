@@ -1,6 +1,6 @@
 # Password Manager
 
-A secure password management application built with the MERN stack (MongoDB, Express.js, React.js, Node.js). This application allows users to store, generate, and check passwords for various applications while ensuring security through encryption and data breach checking.
+A secure password management application built with the MERN stack (MongoDB, Express.js, React.js, Node.js). This application allows users to store, generate, and check passwords for various data breaches.
 
 ## Features
 
@@ -8,15 +8,9 @@ A secure password management application built with the MERN stack (MongoDB, Exp
 - Secure password storage
 - Random password generation
 - Password strength checking
-- Data breach detection using HaveIBeenPwned API
+- Data breach detection
 - Copy to clipboard functionality
 - Modern, responsive UI
-
-## Prerequisites
-
-- Node.js (v14 or higher)
-- MongoDB
-- npm or yarn
 
 ## Setup
 
@@ -71,19 +65,5 @@ The application will be available at:
 - Frontend: http://localhost:3000
 - Backend: http://localhost:5000
 
-## Security Features
 
-- Passwords are hashed using bcrypt
-- JWT-based authentication
-- Secure password storage in MongoDB
-- Password breach checking using HaveIBeenPwned API
-- HTTPS support (in production)
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a new Pull Request
 
